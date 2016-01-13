@@ -1,0 +1,68 @@
+[{
+		"adpTitle": "婚姻座驾",
+		"adpLogo": "http://pic.tuanche.com/ams/20150919/14426718579625495.png",
+		"shareUrl": "http://umapi.tuanche.com/wx/ad/popular?cityId=68&adpId=30&logo=http://pic.tuanche.com/ams/20150919/14426718579625495.png&title=婚姻座驾",
+		"sharePic": "http://pic.tuanche.com/ams/20150921/14428131954665581.png",
+		"shareCtx": "空间、经济、实用，家庭成员多就怕一车坐不下",
+		"shareSlogan": "婚姻座驾,给她最好的",
+		"isShare": 1,
+		"cardTotal": 6,
+		"offset": 20,
+		"count": 20
+},{
+		"adpTitle": "妈咪购车",
+		"adpLogo": "http://pic.tuanche.com/ams/20150919/14426736064245692.png",
+		"shareUrl": "http://umapi.tuanche.com/wx/ad/popular?cityId=68&adpId=31&logo=http://pic.tuanche.com/ams/20150919/14426736064245692.png&title=妈咪购车",
+		"sharePic": "http://pic.tuanche.com/ams/20150921/14428132193347210.png",
+		"shareCtx": "保护我的小baby，还要有我的小空间",
+		"shareSlogan": "妈咪购车,我baby、我驾道",
+		"isShare": 1,
+		"cardTotal": 7,
+		"offset": 20,
+		"count": 20
+ },{
+ "adpTitle": "自驾旅行",
+ "adpLogo": "http://pic.tuanche.com/ams/20150919/14426739415157594.png",
+ "shareUrl": "http://umapi.tuanche.com/wx/ad/popular?cityId=68&adpId=35&logo=http://pic.tuanche.com/ams/20150919/14426739415157594.png&title=自驾旅行",
+ "sharePic": "http://pic.tuanche.com/ams/20150921/14428132881255027.png",
+ "shareCtx": "车辆通过性好，世界那么大，我想去看看",
+ "shareSlogan": "自驾旅行,世界那么大,我想去看看",
+ "isShare": 1,
+ "cardTotal": 5,
+ "offset": 20,
+ "count": 20
+ },{
+		"adpTitle": "商务专享",
+		"adpLogo": "http://pic.tuanche.com/ams/20150919/14426737292441189.png",
+		"shareUrl": "http://umapi.tuanche.com/wx/ad/popular?cityId=68&adpId=32&logo=http://pic.tuanche.com/ams/20150919/14426737292441189.png&title=商务专享",
+		"sharePic": "http://pic.tuanche.com/ams/20150921/14428132351153046.png",
+		"shareCtx": "商务专享,洽谈一路有它",
+		"shareSlogan": "商务专享,洽谈一路有它",
+		"isShare": 1,
+		"cardTotal": 5,
+		"offset": 20,
+		"count": 20
+},{
+		"adpTitle": "白领E族",
+		"adpLogo": "http://pic.tuanche.com/ams/20150919/14426737970955085.png",
+		"shareUrl": "http://umapi.tuanche.com/wx/ad/popular?cityId=68&adpId=33&logo=http://pic.tuanche.com/ams/20150919/14426737970955085.png&title=白领E族",
+		"sharePic": "http://pic.tuanche.com/ams/20150921/14428132497556376.png",
+		"shareCtx": "忙忙碌碌一线天，省油让我赚更多",
+		"shareSlogan": "白领E族,悠闲自在",
+		"isShare": 1,
+		"cardTotal": 11,
+		"offset": 20,
+		"count": 20
+},{
+		"adpTitle": "代步有道",
+		"adpLogo": "http://pic.tuanche.com/ams/20150919/14426738887358649.png",
+		"shareUrl": "http://umapi.tuanche.com/wx/ad/popular?cityId=68&adpId=34&logo=http://pic.tuanche.com/ams/20150919/14426738887358649.png&title=代步有道",
+		"sharePic": "http://pic.tuanche.com/ams/20150921/14428132722257221.png",
+		"shareCtx": "省时省事，灵巧车型出入自如",
+		"shareSlogan": "代步有道,省时省事灵巧车型出入自如",
+		"isShare": 1,
+		"cardTotal": 10,
+		"offset": 20,
+		"count": 20
+}
+]

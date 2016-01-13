@@ -1,0 +1,56 @@
+[
+  {
+    "adType" : "1",
+    "adpInfoUrl" : "",
+    "bigTitle" : "婚姻座驾",
+    "iconUrl" : "http://pic.tuanche.com/ams/20150919/1442671843470503.png",
+    "positionId" : 30,
+    "positionType" : 1,
+    "subTitle" : "给她最好的"
+  },
+  {
+    "adType" : "1",
+    "adpInfoUrl" : "",
+    "bigTitle" : "妈咪购车",
+    "iconUrl" : "http://pic.tuanche.com/ams/20150919/14426735668713741.png",
+    "positionId" : 31,
+    "positionType" : 2,
+    "subTitle" : "温馨驾道"
+  },
+  {
+    "adType" : "1",
+    "adpInfoUrl" : "",
+    "bigTitle" : "商务专享",
+    "iconUrl" : "http://pic.tuanche.com/ams/20150919/1442673716861289.png",
+    "positionId" : 32,
+    "positionType" : 4,
+    "subTitle" : "洽谈一路有它"
+  },
+  {
+    "adType" : "1",
+    "adpInfoUrl" : "",
+    "bigTitle" : "白领E族",
+    "iconUrl" : "http://pic.tuanche.com/ams/20150919/14426737909056229.png",
+    "positionId" : 33,
+    "positionType" : 5,
+    "subTitle" : "悠闲自在"
+  },
+  {
+    "adType" : "1",
+    "adpInfoUrl" : "",
+    "bigTitle" : "代步有道",
+    "iconUrl" : "http://pic.tuanche.com/ams/20150919/1442673882484285.png",
+    "positionId" : 34,
+    "positionType" : 6,
+    "subTitle" : "能省就省"
+  },
+  {
+    "adType" : "1",
+    "adpInfoUrl" : "",
+    "bigTitle" : "自驾旅行",
+    "iconUrl" : "http://pic.tuanche.com/ams/20150919/14426741519264339.png",
+    "positionId" : 35,
+    "positionType" : 3,
+    "subTitle" : "说走就走"
+  }
+]

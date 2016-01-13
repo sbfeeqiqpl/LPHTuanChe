@@ -1,0 +1,121 @@
+{
+  "bos" : [
+    {
+      "defIcon" : "http://pic.tuanche.com/icon/cartype/android/icon_weixing_unsel.png",
+      "icon" : "http://pic.tuanche.com/icon/cartype/android/icon_weixing_sel.png",
+      "id" : 9,
+      "name" : "微型车"
+    },
+    {
+      "defIcon" : "http://pic.tuanche.com/icon/cartype/android/icon_xiaoxing_unsel.png",
+      "icon" : "http://pic.tuanche.com/icon/cartype/android/icon_xiaoxing_sel.png",
+      "id" : 1,
+      "name" : "小型车"
+    },
+    {
+      "defIcon" : "http://pic.tuanche.com/icon/cartype/android/icon_jincou_unsel.png",
+      "icon" : "http://pic.tuanche.com/icon/cartype/android/icon_jincou_sel.png",
+      "id" : 2,
+      "name" : "紧凑车型"
+    },
+    {
+      "defIcon" : "http://pic.tuanche.com/icon/cartype/android/icon_zhongji_unsel.png",
+      "icon" : "http://pic.tuanche.com/icon/cartype/android/icon_zhongji_sel.png",
+      "id" : 3,
+      "name" : "中级车"
+    },
+    {
+      "defIcon" : "http://pic.tuanche.com/icon/cartype/android/icon_zhonggaoji_unsel.png",
+      "icon" : "http://pic.tuanche.com/icon/cartype/android/icon_zhonggaoji_sel.png",
+      "id" : 4,
+      "name" : "中高级车"
+    },
+    {
+      "defIcon" : "http://pic.tuanche.com/icon/cartype/android/icon_haohua_unsel.png",
+      "icon" : "http://pic.tuanche.com/icon/cartype/android/icon_haohua_sel.png",
+      "id" : 5,
+      "name" : "豪华车"
+    },
+    {
+      "defIcon" : "http://pic.tuanche.com/icon/cartype/android/icon_mpv_unsel.png",
+      "icon" : "http://pic.tuanche.com/icon/cartype/android/icon_mpv_sel.png",
+      "id" : 6,
+      "name" : "MPV"
+    },
+    {
+      "defIcon" : "http://pic.tuanche.com/icon/cartype/android/icon_suv_unsel.png",
+      "icon" : "http://pic.tuanche.com/icon/cartype/android/icon_suv_sel.png",
+      "id" : 7,
+      "name" : "SUV"
+    },
+    {
+      "defIcon" : "http://pic.tuanche.com/icon/cartype/android/icon_qita_unsel.png",
+      "icon" : "http://pic.tuanche.com/icon/cartype/android/icon_qita_sel.png",
+      "id" : -1,
+      "name" : "其它"
+    }
+  ],
+  "levle" : [
+    {
+      "id" : 1,
+      "name" : "1.0L以下"
+    },
+    {
+      "id" : 2,
+      "name" : "1.0L-1.4L"
+    },
+    {
+      "id" : 3,
+      "name" : "1.4L-1.7L"
+    },
+    {
+      "id" : 4,
+      "name" : "1.7L-2.0L"
+    },
+    {
+      "id" : 5,
+      "name" : "2.0L-2.5L"
+    },
+    {
+      "id" : 6,
+      "name" : "2.5L以上"
+    }
+  ],
+  "series" : [
+    {
+      "icon" : "http://pic.tuanche.com/icon/country/android/guochan.png",
+      "id" : 6,
+      "name" : "国产"
+    },
+    {
+      "icon" : "http://pic.tuanche.com/icon/country/android/deguo.png",
+      "id" : 2,
+      "name" : "德国"
+    },
+    {
+      "icon" : "http://pic.tuanche.com/icon/country/android/riben.png",
+      "id" : 4,
+      "name" : "日本"
+    },
+    {
+      "icon" : "http://pic.tuanche.com/icon/country/android/meiguo.png",
+      "id" : 1,
+      "name" : "美国"
+    },
+    {
+      "icon" : "http://pic.tuanche.com/icon/country/android/haiguo.png",
+      "id" : 8,
+      "name" : "韩国"
+    },
+    {
+      "icon" : "http://pic.tuanche.com/icon/country/android/faguo.png",
+      "id" : 3,
+      "name" : "法国"
+    },
+    {
+      "icon" : "http://pic.tuanche.com/icon/country/android/qita.png",
+      "id" : 7,
+      "name" : "其它"
+    }
+  ]
+}
