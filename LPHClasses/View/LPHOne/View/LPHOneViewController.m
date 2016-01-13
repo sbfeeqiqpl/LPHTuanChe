@@ -333,13 +333,11 @@
             NSLog(@"%ld",sender.tag);
             break;
         case 103:
-            NSLog(@"%ld",sender.tag);
-            break;
         case 104:
-            NSLog(@"%ld",sender.tag);
-            break;
         case 105:
         {
+            app = [UIApplication sharedApplication].delegate;
+            app.tagId = sender.tag;
             LPHWeiZhangViewController *lphwz = [[LPHWeiZhangViewController alloc]init];
             [self presentViewController:lphwz animated:YES completion:^{
             }];

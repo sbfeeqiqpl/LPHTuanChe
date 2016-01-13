@@ -16,6 +16,8 @@
 
 @property long cityChioce;
 
+@property long tagId;
+
 @property (weak,nonatomic) NSMutableArray *cityArr;
 
 @end

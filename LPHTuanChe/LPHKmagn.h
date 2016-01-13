@@ -44,6 +44,9 @@
 #define GOUCHEPINJIA @"http://umapi.tuanche.com/groupbuy/info?styleId=277&brandId=21&cityId=68&token=683ff91f58c2015936ed5b349195894a1588b587a3acbc48c573270f3f5f82cba99f378c8471cda1c74066ce612ec567_db33a81738b42d62a23e33f259f6bd35&time=1451992323&sign=ea456817333ce7ef8614d9eccbc0c0bf"
 #define TIAOJIANXUANCHE @"/Users/qianfeng/网络学习/高级网络/LPHTuanChe/Json/tiaojian.json"
 #define REMENXUANCHE @"/Users/qianfeng/网络学习/高级网络/LPHTuanChe/Json/remenxuanche.json"
+#define WEIZHANGCHAXUN @"http://weizhang.58.com/m/view?channelid=12&appsource=12&platform=1&qq-pf-to=pcqq.temporaryc2c&source=6"
+#define BAOXIANBIJIA @"http://m.tuanche.com/yangche/bj/wx/insurance/sales/index?channel=672&source=6"
+#define JIAYOUCHONZHI @"http://m.tuanche.com/yangche/wx/fuelcard/index/?channel=672&source=6"
 
 #pragma mark 第四页
 #define KEFU @"http://static.tuanche.com/ssg/h5/images/redbag.png"

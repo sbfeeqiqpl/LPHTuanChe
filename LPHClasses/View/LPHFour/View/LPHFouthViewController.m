@@ -59,6 +59,9 @@
 }
 -(void)buttonClick
 {
-    NSLog(@"111");
+    UIWebView *webView = [[UIWebView alloc]init];
+    NSString *phoneNum = @"4006969123";
+    NSURL *phoneUrl = [NSURL URLWithString:phoneNum];
+    [webView loadRequest:[NSURLRequest requestWithURL:phoneUrl]];
 }
 @end
