@@ -88,7 +88,7 @@
     {
         UIImage *image = [UIImage imageNamed:@"loading_nodata"];
         UIImageView *imageView = [[UIImageView alloc]initWithImage:image];
-        imageView.frame = CGRectMake(WIDTH*i+(WIDTH/3), HEIGHT/5, WIDTH/3, _scrollView.bounds.size.height/5);
+        imageView.frame = CGRectMake(WIDTH*i+(WIDTH/5*2), HEIGHT/5, WIDTH/5, _scrollView.bounds.size.height/5);
         [_scrollView addSubview:imageView];
         
         UILabel *label = [[UILabel alloc]initWithFrame:CGRectMake(WIDTH/4, HEIGHT/2, WIDTH/2, 30)];
