@@ -95,13 +95,12 @@
 #pragma mark 扫码按钮的监听
 -(void)saomaClick
 {
-//    NSLog(@"请将你的脸放入扫描区");
+    NSLog(@"请将你的脸放入扫描区");
     ZBarReaderController* zbarController = [[ZBarReaderController alloc] init];
     zbarController.delegate = self;
     [self presentViewController:zbarController animated:YES completion:^{
         
     }];
-    
 }
 #pragma mark 最后得到的结果
 - (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info
@@ -113,12 +112,10 @@
     //最后得到的结果
     NSLog(@"%@",symbol.data);
     [picker dismissViewControllerAnimated:YES completion:^{
-        
     }];
 }
 - (void)imagePickerControllerDidCancel:(UIImagePickerController *)picker{
     [picker dismissViewControllerAnimated:YES completion:^{
-        
     }];
 }
 #pragma mark tableView

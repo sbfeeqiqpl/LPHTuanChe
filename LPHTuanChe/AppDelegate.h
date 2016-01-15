@@ -18,6 +18,10 @@
 
 @property long tagId;
 
+@property long cityNameId;
+
+@property (nonatomic,copy) NSString *carName;
+
 @property (weak,nonatomic) NSMutableArray *cityArr;
 
 @end

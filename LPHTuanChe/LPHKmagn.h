@@ -52,5 +52,14 @@
 #define KEFU @"http://static.tuanche.com/ssg/h5/images/redbag.png"
 
 #pragma mark 第五页
-#define BAOXIANDINGDAN @"http://m.wxb.com.cn/mobile/user/userCenter?mobile=15295611029&token=683ff91f58c2015936ed5b349195894a1588b587a3acbc48c573270f3f5f82cba99f378c8471cda1c74066ce612ec567_db33a81738b42d62a23e33f259f6bd35&time=1451956856&sign=027ade3607b2f1a834b12e5d9e8162ac"
+//#define BAOXIANDINGDAN @"http://m.wxb.com.cn/mobile/user/userCenter?mobile=15295611029&token=683ff91f58c2015936ed5b349195894a1588b587a3acbc48c573270f3f5f82cba99f378c8471cda1c74066ce612ec567_db33a81738b42d62a23e33f259f6bd35&time=1451956856&sign=027ade3607b2f1a834b12e5d9e8162ac"
+#define YANGCHEDINGDAN @"http://m.tuanche.com/yangche/wx/ucenter/myorders?identify=683ff91f58c2015936ed5b349195894a1588b587a3acbc48c573270f3f5f82cba99f378c8471cda1c74066ce612ec567&source=6&token=683ff91f58c2015936ed5b349195894a1588b587a3acbc48c573270f3f5f82cba99f378c8471cda1c74066ce612ec567_db33a81738b42d62a23e33f259f6bd35&time=1452737019&sign=a07a28d0e83b6e3d5d996f02fa4b4157"
+#define BAOXIANDD @"http://m.wxb.com.cn/mobile/user/userCenter?mobile=15295611029&token=683ff91f58c2015936ed5b349195894a1588b587a3acbc48c573270f3f5f82cba99f378c8471cda1c74066ce612ec567_db33a81738b42d62a23e33f259f6bd35&time=1452737179&sign=1fcae79f615a41f8e8814c632d744528"
+#define YANGCHEHB @"http://m.tuanche.com/yangche/m/ucenter/info?source=6&identify=683ff91f58c2015936ed5b349195894a1588b587a3acbc48c573270f3f5f82cba99f378c8471cda1c74066ce612ec567_db33a81738b42d62a23e33f259f6bd35"
+#define HONGBAOBZ @"http://umapi.tuanche.com/h5/howTo?token=683ff91f58c2015936ed5b349195894a1588b587a3acbc48c573270f3f5f82cba99f378c8471cda1c74066ce612ec567_db33a81738b42d62a23e33f259f6bd35&time=1452737516&sign=e4e20d2917a96fc3aaf7b13a8235794f"
+#define YOUHUIQUAN @"http://m.tuanche.com/yangche/m/ucenter/info?identify=683ff91f58c2015936ed5b349195894a1588b587a3acbc48c573270f3f5f82cba99f378c8471cda1c74066ce612ec567&source=6&param=1"
+#define DALIBAO @"http://m.tuanche.com/yangche/bj/wx/car/deductibleVoucherList?userId=3158628&source=6"
+#define GDFWLC "http://umapi.tuanche.com/h5/process?cityId=68&versioncode=20151201&deviceId=865685024679179&token=683ff91f58c2015936ed5b349195894a1588b587a3acbc48c573270f3f5f82cba99f378c8471cda1c74066ce612ec567_db33a81738b42d62a23e33f259f6bd35&time=1452737870&sign=46be80fc3939601f825ce115f854177c"
+#define GUANYUTC @"http://umapi.tuanche.com/h5/about?token=683ff91f58c2015936ed5b349195894a1588b587a3acbc48c573270f3f5f82cba99f378c8471cda1c74066ce612ec567_db33a81738b42d62a23e33f259f6bd35&time=1452738116&sign=c062070ae3e1d2ce6dee33d7b74b51e1"
+
 #endif

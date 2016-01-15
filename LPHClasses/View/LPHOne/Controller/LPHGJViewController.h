@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+typedef void(^carNameblock)(NSString *carName);
 
 @interface LPHGJViewController : UIViewController
+
+@property (strong, nonatomic) carNameblock block;
+
+-(void)setBlock:(carNameblock)block;
 
 @end

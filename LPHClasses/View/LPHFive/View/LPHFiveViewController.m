@@ -261,5 +261,15 @@
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     NSLog(@"%ld",indexPath.row);
+    if(indexPath.section == 0)
+    {
+        
+    }else if(indexPath.section == 1)
+    {
+        
+    }else
+    {
+        
+    }
 }
 @end

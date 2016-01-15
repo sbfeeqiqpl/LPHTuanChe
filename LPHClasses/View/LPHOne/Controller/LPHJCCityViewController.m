@@ -9,8 +9,12 @@
 #import "LPHJCCityViewController.h"
 #import "LPHKmagn.h"
 #import "LPHJCCityTableViewCell.h"
+#import "AppDelegate.h"
 
 @interface LPHJCCityViewController ()<UITableViewDataSource,UITableViewDelegate>
+{
+    AppDelegate *app;
+}
 @property (strong ,nonatomic)UITableView *tableView;
 
 @property (strong,nonatomic)NSMutableArray *array;
@@ -63,6 +67,7 @@
 -(void)createGetData
 {
     _array = [[NSMutableArray alloc]initWithCapacity:0];
+    _cityNameArray = [[NSMutableArray alloc]initWithCapacity:0];
     AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
     manager.responseSerializer = [AFHTTPResponseSerializer serializer];
     [manager GET:JIUCHECHENGSHI parameters:nil success:^(AFHTTPRequestOperation *operation, id responseObject) {
@@ -71,6 +76,7 @@
             LPHJCCityModel *model = [[LPHJCCityModel alloc]init];
             [model setValuesForKeysWithDictionary:tempDic];
             [_array addObject:model];
+            [_cityNameArray addObject:model.city_name];
         }
         [_tableView reloadData];
     } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
@@ -99,7 +105,12 @@
 }
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
+    _block(_cityNameArray[indexPath.row]);
     [self dismissViewControllerAnimated:YES completion:^{
     }];
+}
+-(void)setBlock:(cityNameblock)block
+{
+    _block = block;
 }
 @end

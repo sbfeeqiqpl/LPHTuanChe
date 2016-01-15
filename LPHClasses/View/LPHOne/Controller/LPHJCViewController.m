@@ -10,6 +10,7 @@
 #import "LPHKmagn.h"
 #import "LPHGJViewController.h"
 #import "LPHJCCityViewController.h"
+#import "AppDelegate.h"
 
 @interface LPHJCViewController ()<UIPickerViewDelegate,UITextFieldDelegate>
 {
@@ -17,6 +18,8 @@
     UIView *timerView;
     UITextField *timerField;
     UITextField *journey;
+    UITextField *cityField;
+    UITextField *_textField;
 }
 
 @property (weak, nonatomic) UIButton *cover;
@@ -98,7 +101,7 @@
 }
 -(void)createCityButton
 {
-    UITextField *cityField = [[UITextField alloc]initWithFrame:CGRectMake(10, 185, WIDTH-20, 30)];
+    cityField = [[UITextField alloc]initWithFrame:CGRectMake(10, 185, WIDTH-20, 30)];
     cityField.placeholder = @"请选择所在城市";
     cityField.borderStyle = UITextBorderStyleRoundedRect;
     [view addSubview:cityField];
@@ -132,14 +135,14 @@
 #pragma mark 车型和上牌照时间
 -(void)createbutton
 {
-    UITextField *textField = [[UITextField alloc]initWithFrame:CGRectMake(10, 85, WIDTH-20, 30)];
-    textField.placeholder = @"请输入车型";
-    textField.borderStyle = UITextBorderStyleRoundedRect;
-    [view addSubview:textField];
+    _textField = [[UITextField alloc]initWithFrame:CGRectMake(10, 85, WIDTH-20, 30)];
+    _textField.placeholder = @"请输入车型";
+    _textField.borderStyle = UITextBorderStyleRoundedRect;
+    [view addSubview:_textField];
     UIImageView *imageView = [[UIImageView alloc]initWithFrame:CGRectMake(0, 0, 20, 20)];
     imageView.image = [UIImage imageNamed:@"icon_arraw_right"];
-    textField.rightViewMode = UITextFieldViewModeAlways;
-    textField.rightView = imageView;
+    _textField.rightViewMode = UITextFieldViewModeAlways;
+    _textField.rightView = imageView;
     UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
     button.frame = CGRectMake(10, 85, WIDTH-20, 30);
     [button addTarget:self action:@selector(chexingBtnClick) forControlEvents:UIControlEventTouchUpInside];
@@ -162,6 +165,9 @@
 -(void)chexingBtnClick
 {
     LPHGJViewController *lphgj = [[LPHGJViewController alloc]init];
+    [lphgj setBlock:^(NSString *carName) {
+        _textField.text = carName;
+    }];
     [self presentViewController:lphgj animated:YES completion:^{
     }];
 }
@@ -200,6 +206,9 @@
 -(void)cityBtnClick
 {
     LPHJCCityViewController *lphjcCity = [[LPHJCCityViewController alloc]init];
+    [lphjcCity setBlock:^(NSString *city) {
+        cityField.text = city;
+    }];
     [self presentViewController:lphjcCity animated:YES completion:^{
     }];
 }
