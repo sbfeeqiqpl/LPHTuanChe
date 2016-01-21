@@ -52,7 +52,6 @@
 #define KEFU @"http://static.tuanche.com/ssg/h5/images/redbag.png"
 
 #pragma mark 第五页
-//#define BAOXIANDINGDAN @"http://m.wxb.com.cn/mobile/user/userCenter?mobile=15295611029&token=683ff91f58c2015936ed5b349195894a1588b587a3acbc48c573270f3f5f82cba99f378c8471cda1c74066ce612ec567_db33a81738b42d62a23e33f259f6bd35&time=1451956856&sign=027ade3607b2f1a834b12e5d9e8162ac"
 #define YANGCHEDINGDAN @"http://m.tuanche.com/yangche/wx/ucenter/myorders?identify=683ff91f58c2015936ed5b349195894a1588b587a3acbc48c573270f3f5f82cba99f378c8471cda1c74066ce612ec567&source=6&token=683ff91f58c2015936ed5b349195894a1588b587a3acbc48c573270f3f5f82cba99f378c8471cda1c74066ce612ec567_db33a81738b42d62a23e33f259f6bd35&time=1452737019&sign=a07a28d0e83b6e3d5d996f02fa4b4157"
 #define BAOXIANDD @"http://m.wxb.com.cn/mobile/user/userCenter?mobile=15295611029&token=683ff91f58c2015936ed5b349195894a1588b587a3acbc48c573270f3f5f82cba99f378c8471cda1c74066ce612ec567_db33a81738b42d62a23e33f259f6bd35&time=1452737179&sign=1fcae79f615a41f8e8814c632d744528"
 #define YANGCHEHB @"http://m.tuanche.com/yangche/m/ucenter/info?source=6&identify=683ff91f58c2015936ed5b349195894a1588b587a3acbc48c573270f3f5f82cba99f378c8471cda1c74066ce612ec567_db33a81738b42d62a23e33f259f6bd35"

@@ -12,9 +12,17 @@
 #import "ImageMethodTool.h"
 #import "LPHFiveGroupModel.h"
 #import "LPHFiveModel.h"
+#import "LPHYCViewController.h"
+#import "LPHBXDDViewController.h"
+#import "LPHYCHBViewController.h"
+#import "LPHYHQViewController.h"
+#import "LPHSZViewController.h"
+#import "LPHDLZCViewController.h"
 
 @interface LPHFiveViewController ()<UITableViewDataSource,UITableViewDelegate,UIActionSheetDelegate,UIImagePickerControllerDelegate,UINavigationControllerDelegate>
-
+{
+    UILabel *xinxi;
+}
 @property (strong, nonatomic) UITableView *tableView;
 
 @property (strong,nonatomic)UIButton *touxiang;
@@ -102,8 +110,8 @@
     _touxiang.layer.masksToBounds = YES;
     [imageView addSubview:_touxiang];
     
-    UILabel *xinxi = [[UILabel alloc]initWithFrame:CGRectMake(70, (imageView.frame.size.height - 30)/2, 180, 30)];
-    xinxi.text = @"李少";
+    xinxi = [[UILabel alloc]initWithFrame:CGRectMake(70, (imageView.frame.size.height - 30)/2, 180, 30)];
+    xinxi.text = @"游客";
     xinxi.font = [UIFont systemFontOfSize:20];
     [imageView addSubview:xinxi];
     
@@ -118,7 +126,8 @@
     [imageView addSubview:bigBtn];
 }
 -(void)shezhiBtnClick{
-    NSLog(@"123");
+    LPHSZViewController *lphsz = [[LPHSZViewController alloc]init];
+    [self presentViewController:lphsz animated:YES completion:nil];
 }
 -(void)touxiangClick{
     UIActionSheet *actionSheep = [[UIActionSheet alloc]initWithTitle:@"选取图片" delegate:self cancelButtonTitle:@"取消" destructiveButtonTitle:nil otherButtonTitles:@"相册选取",@"拍照", nil];
@@ -217,7 +226,8 @@
 }
 
 -(void)bigBtnClick{
-    NSLog(@"3");
+    LPHDLZCViewController *lphdlzc = [[LPHDLZCViewController alloc]init];
+    [self presentViewController:lphdlzc animated:YES completion:nil];
 }
 -(void)createTableView
 {
@@ -260,16 +270,44 @@
 }
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    NSLog(@"%ld",indexPath.row);
     if(indexPath.section == 0)
     {
+        if(indexPath.row == 0)
+        {
         
+        }else if (indexPath.row == 1)
+        {
+            LPHYCViewController *lphyc = [[LPHYCViewController alloc]init];
+            [self presentViewController:lphyc animated:YES completion:^{
+            }];
+        }else
+        {
+            
+        }
     }else if(indexPath.section == 1)
     {
-        
+        if(indexPath.row == 0)
+        {
+            
+        }else
+        {
+            LPHBXDDViewController *lphbx = [[LPHBXDDViewController alloc]init];
+            [self presentViewController:lphbx animated:YES completion:^{
+            }];
+        }
     }else
     {
-        
+        if(indexPath.row == 0)
+        {
+            LPHYCHBViewController *lphychb = [[LPHYCHBViewController alloc]init];
+            [self presentViewController:lphychb animated:YES completion:^{
+            }];
+        }else
+        {
+            LPHYHQViewController *lphyhq = [[LPHYHQViewController alloc]init];
+            [self presentViewController:lphyhq animated:YES completion:^{
+            }];
+        }
     }
 }
 @end

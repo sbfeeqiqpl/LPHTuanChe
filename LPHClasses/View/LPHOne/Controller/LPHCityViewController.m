@@ -170,11 +170,11 @@
 {
     _block(_cityArray[indexPath.row]);
     [self dismissViewControllerAnimated:YES completion:^{
-        
     }];
 }
 -(void)setBlock:(cityblock)block
 {
     _block = block;
 }
+
 @end
